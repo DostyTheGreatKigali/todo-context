@@ -1,0 +1,26 @@
+.todoList {
+    color: #fff;
+    width: 300px;
+    background-color: #bf07ac;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.todoList p {
+    padding: 15px;
+    position: relative;
+}
+.todoList p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.todoList p input {
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+.todoList p input:focus {
+    outline: none;
+}
